@@ -1,0 +1,75 @@
+body{
+    font-family: montserrat, san-serif;
+}
+
+
+
+h1,h2,h3,h4,h5{
+    font-family: cormorant;
+    font-weight: bold;
+}
+
+
+
+
+#background-img {
+    background: url("../img/law-library1.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+    min-height: auto;
+    position: relative;
+    color: #fff;
+    width: 100%;
+    
+}
+
+
+
+ .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+   /* position: absolute;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+#business {
+    background: url("../img/law-15a.jpg") no-repeat;
+    background-size: contain;
+    background-attachment: inherit;
+    min-height: auto;
+    position: relative;
+    color: #fff;
+    width: 100%;    
+}
+
+
+
+  .review-before::before {
+    content: "\201D";
+    position: absolute;
+    top: -3.4rem;
+    right: 3rem;
+    font-size: 7rem;
+    color: #f43930; }
+
+
+
+
+
+
+
+
+#footer-section {
+    padding: 3rem 6rem;
+    width: 100%;
+}
+
+
+#footer-section p{
+    font-size: .8rem;
+    line-height: .5rem;
+    
+}
+
