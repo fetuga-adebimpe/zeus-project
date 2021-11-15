@@ -392,7 +392,7 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.0rem;
+  font-size: 0.8rem;
   font-weight: 300;
 }
 
@@ -8864,7 +8864,7 @@ a.text-warning:hover, a.text-warning:focus {
 }
 
 .text-danger {
-  color: #dc3545 !important;
+  color: #f43930 !important;
 }
 
 a.text-danger:hover, a.text-danger:focus {
