@@ -50,7 +50,13 @@ h1,h2,h3,h4,h5{
     font-size: 7rem;
     color: #f43930; }
 
-
+    .dot {
+        height: 25px;
+        width: 25px;
+        background-color: #f43930;
+        border-radius: 50%;
+        display: inline-block;
+      }
 
 
 
