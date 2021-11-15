@@ -52,13 +52,7 @@ h1,h2,h3,h4,h5{
     font-size: 7rem;
     color: #f43930; }
 
-    .dot {
-        height: 25px;
-        width: 25px;
-        background-color: #f43930;
-        border-radius: 50%;
-        display: inline-block;
-      }
+   
 
 
 
@@ -71,15 +65,6 @@ h1,h2,h3,h4,h5{
 
 
 
-#footer-section {
-    padding: 3rem 6rem;
-    width: 100%;
-}
 
 
-#footer-section p{
-    font-size: .8rem;
-    line-height: .5rem;
-    
-}
 
