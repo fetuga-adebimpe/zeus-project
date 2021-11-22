@@ -16,6 +16,10 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!-- JavaScript Bundle with Popper -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  <!-- Custom Styles for this theme -->
+  <link rel="stylesheet" href="./navbar-fixed.css">
 
 
   <link rel="stylesheet" href="css/bootstrap-grid.css">
@@ -37,49 +41,69 @@
 </head>
 
 <body id="home">
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-    <div class="container">
-      <a href="index.html" class="navbar-brand">
-      <h3>Zeus</h3>
-      </a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#services" class="nav-link">Services</a>
-          </li>
-          <li class="nav-item">
-            <a href="#news" class="nav-link">News</a>
-          </li>
-          <li class="nav-item mr-4">
-            <a href="#contacts" class="nav-link">Contacts</a>
-          </li>
-          <li class="nav-item ml-5">
-            <a href="#" class="nav-link border-right"><i class="fas fa-phone-square-alt mr-2"></i>+44 62 7146
-              9812</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link"> <i class="fas fa-envelope-square mr-2"></i>info@zeus.com</a>
-          </li>
-        </ul>
-        </div>
-        </div>
-        </nav>
-        
+ 
+       <!---- <nav class="navbar navbar-toggleable-sm fixed-top bg-primary navbar-light">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section1">Section 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section2">Section 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section3">Section 3</a>
+              </li>
+            </ul>
+          </div>
+        </nav>-->
 
         <!--header-section-->
   <header id="background-img">
     <div class="dark-overlay">
     <div class="container py-5">
-
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+          <h3>Zeus</h3>
+          </a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#news" class="nav-link">News</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="#contacts" class="nav-link">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link border-right"><i class="fas fa-phone-square-alt mr-2"></i>+44 62 7146
+                  9812</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> <i class="fas fa-envelope-square mr-2"></i>info@zeus.com</a>
+              </li>
+            </ul>
+            </div>
+            </div>
+            </nav>
 
       <div class="row">
         <div class="col-lg-1 align-self-center">          
@@ -591,94 +615,31 @@
 
   
   </footer>
+
+
   <!----
   <button onclick="topFunction()" id="movetop" class="editContent" title="Go to top">
     <span class="fa fa-angle-up"></span>
   </button>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-  <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-      scrollFunction()
-    };
+<script src="./navbar-fixed.js"></script>
+<script type="text/javascript">
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("movetop").style.display = "block";
-      } else {
-        document.getElementById("movetop").style.display = "none";
-      }
-    }
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-  </script>
-  <!-- /move top -->
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
-  <!-- common jquery -->
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <!-- //common jquery -->
-
-  <!-- disable body scroll which navbar is in active -->
-  <script>
-    $(function () {
-      $('.navbar-toggler').click(function () {
-        $('body').toggleClass('noscroll');
-      })
-    });
-  </script>
-  <!-- disable body scroll which navbar is in active -->
-
-
-  <!-- for blog carousel slider -->
-  <script src="js/owl.carousel.js"></script>
-  <script>
-    $(document).ready(function () {
-      var owl = $('.owl-carousel');
-      owl.owlCarousel({
-        stagePadding: 20,
-        margin: 15,
-        nav: false,
-        loop: false,
-        responsive: {
-          0: {
-            items: 1
-          },
-          600: {
-            items: 2
-          },
-          1000: {
-            items: 3
-          }
-        }
-      })
-    })
-  </script>
-  <!-- //for blog carousel slider -->
-
-
-  <!-- stats number counter-->
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.countup.js"></script>
-  <script>
-    $('.counter').countUp();
-  </script>
-  <!-- //stats number counter -->
-
-  <!-- jQuery-Photo-filter-lightbox-portfolio-plugin -->
-  <script src="js/jquery-1.7.2.js"></script>
-  <script src="js/jquery.quicksand.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/jquery.prettyPhoto.js"></script>
-  <!-- //jQuery-Photo-filter-lightbox-portfolio-plugin -->
-
-  <!--  bootstrap js -->
-  <script src="js/bootstrap.min.js"></script>
-  <!--  //bootstrap js -->
-  <script src="js/navbar-fixed.js"></script>
-</body>
+</script>
+ </body>
 
 </html>
