@@ -1,6 +1,9 @@
 #home{
     width: 100%;
     font-family: montserrat;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 p{
